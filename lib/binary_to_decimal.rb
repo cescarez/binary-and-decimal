@@ -15,6 +15,6 @@ def binary_to_decimal(binary_array)
       decimal_value += (2 ** ((binary_array.length - 1) - i))
     end
   end
-  raise NotImplementedError
+#   raise NotImplementedError
   return decimal_value
 end
