@@ -11,9 +11,7 @@
 def binary_to_decimal(binary_array)
   decimal_value = 0
   binary_array.each_with_index do |bit, i|
-    if (bit == 1)
-      decimal_value += (2 ** ((binary_array.length - 1) - i))
-    end
+    decimal_value += (2 ** ((binary_array.length - 1) - i)) * bit
   end
 #   raise NotImplementedError
   return decimal_value
