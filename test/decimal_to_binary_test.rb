@@ -32,9 +32,7 @@ describe "binary to decimal" do
   it "From random decimal to binary" do
     num_bits = 8
     max_decimal = 0
-    random_binary_array = []
     num_bits.times do |i|
-      random_binary_array << rand(0..1)
       max_decimal += (2 ** (((num_bits - 1)) - i))
     end
     decimal = rand(0..max_decimal)
