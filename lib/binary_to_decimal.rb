@@ -16,3 +16,6 @@ def binary_to_decimal(binary_array)
 #   raise NotImplementedError
   return decimal_value
 end
+
+
+#change blah blah blah
